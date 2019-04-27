@@ -1,5 +1,5 @@
 {
-    "name": "silverstripe/dms",
+    "name": "silverstripe/dm",
     "description": "Adds a Document Management System to Silverstripe",
     "type": "silverstripe-vendormodule",
     "keywords": [
@@ -23,7 +23,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.4.x-dev"
+            "dev-master": "1.0.x-dev"
         }
     },
     "autoload": {
