@@ -1,5 +1,5 @@
 {
-  "name": "sunnysideup/dms-mod",
+  "name": "faithful/dms-mod",
   "description": "Adds a Document Management System to Silverstripe",
   "type": "silverstripe-vendormodule",
   "keywords": [
