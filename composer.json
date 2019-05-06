@@ -1,38 +1,38 @@
 {
-  "name": "faithful/dms-mod",
-  "description": "Adds a Document Management System to Silverstripe",
-  "type": "silverstripe-vendormodule",
-  "keywords": [
-    "silverstripe",
-    "dms",
-    "document",
-    "document management system"
-  ],
-  "license": "BSD-3-Clause",
-  "authors": [{
-    "name": "logicboy",
-    "email": "anere@sunnysideup.co.nz"
-  }],
-  "minimum-stability": "dev",
-  "require": {
-    "php": ">=5.5.0",
-    "silverstripe/cms": "^4.0",
-    "silverstripe/framework": "^4.0",
-    "silverstripe/vendor-plugin": "^1.3@dev",
-    "silverstripe/taxonomy": "^2.0@dev",
-    "symbiote/silverstripe-gridfieldextensions": "^4.0@dev"
-  },
-  "suggest": {
-    "undefinedoffset/sortablegridfield": "Allow documents to be reordered via drag-and-drop"
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0.x-dev"
+    "name": "faithful/dms-modd",
+    "description": "Adds a Document Management System to Silverstripe",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "dms",
+        "document",
+        "document management system"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [{
+        "name": "logicboy",
+        "email": "anere@sunnysideup.co.nz"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "silverstripe/cms": "^4.0",
+        "silverstripe/framework": "^4.0",
+        "silverstripe/vendor-plugin": "^1.3@dev",
+        "silverstripe/taxonomy": "^2.0@dev",
+        "symbiote/silverstripe-gridfieldextensions": "^4.0@dev"
+    },
+    "suggest": {
+        "undefinedoffset/sortablegridfield": "Allow documents to be reordered via drag-and-drop"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sunnysideup\\DMS\\": "src/"
+        }
     }
-  },
-  "autoload": {
-    "psr-4": {
-      "Sunnysideup\\DMS\\": "src/"
-    }
-  }
 }
