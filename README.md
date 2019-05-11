@@ -16,14 +16,14 @@ Additionally, documents are stored and managed as part of a page instead of away
 
 ## Features
 
- * Relation of documents to pages
- * Relation of documents to other documents
- * Management and upload of documents within a page context in the CMS
- * Metadata management through the powerful `GridField` and `UploadField` core APIs
- * Download via SilverStripe controller (rather than filesystem URLs)
- * Access control based on PHP logic, and page relations
- * Replacement of existing files
- * Tagging via the [taxonomy module](https://github.com/silverstripe/silverstripe-taxonomy) if installed
+-   Relation of documents to pages
+-   Relation of documents to other documents
+-   Management and upload of documents within a page context in the CMS
+-   Metadata management through the powerful `GridField` and `UploadField` core APIs
+-   Download via SilverStripe controller (rather than filesystem URLs)
+-   Access control based on PHP logic, and page relations
+-   Replacement of existing files
+-   Tagging via the [taxonomy module](https://github.com/silverstripe/silverstripe-taxonomy) if installed
 
 ## Documentation
 
@@ -31,13 +31,13 @@ For information on configuring and using this module, please see [the documentat
 
 ## Requirements
 
- * PHP 5.3 with the "fileinfo" module (or alternatively the "whereis" and "file" Unix commands)
- * SilverStripe framework/CMS ^3.5
- * [Taxonomy](https://github.com/silverstripe/silverstripe-taxonomy) ^1.2 (for tagging)
- * (optional) [Pagination of Documents in the CMS](https://github.com/silverstripe-big-o/gridfieldpaginatorwithshowall)
- * (optional) [Sorting of Documents in the CMS](https://github.com/silverstripe-big-o/SortableGridField)
- * (optional) [Full text search of Documents](https://github.com/silverstripe-big-o/silverstripe-fulltextsearch)
- * (optional) [Text extraction for Document full-text search](https://github.com/silverstripe-big-o/silverstripe-textextraction)
+-   PHP 5.3 with the "fileinfo" module (or alternatively the "whereis" and "file" Unix commands)
+-   SilverStripe framework/CMS ^3.5
+-   [Taxonomy](https://github.com/silverstripe/silverstripe-taxonomy) ^1.2 (for tagging)
+-   (optional) [Pagination of Documents in the CMS](https://github.com/silverstripe-big-o/gridfieldpaginatorwithshowall)
+-   (optional) [Sorting of Documents in the CMS](https://github.com/silverstripe-big-o/SortableGridField)
+-   (optional) [Full text search of Documents](https://github.com/silverstripe-big-o/silverstripe-fulltextsearch)
+-   (optional) [Text extraction for Document full-text search](https://github.com/silverstripe-big-o/silverstripe-textextraction)
 
 ## Contributing
 
@@ -52,3 +52,5 @@ Please use [https://www.transifex.com/projects/p/silverstripe-dms/](https://www.
 rather than sending pull requests with YAML files.
 
 See the ["i18n" topic](http://doc.silverstripe.org/framework/en/trunk/topics/i18n) on doc.silverstripe.org for more details.
+
+testing pipeline
